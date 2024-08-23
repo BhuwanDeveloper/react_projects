@@ -1,7 +1,7 @@
 function ProductCategoryRow({category}) {
     return (
         <tr>
-            <th colSpan={2}>{category}</th>
+            <th className="px-3 py-2 border-b border-b-slate-100" colSpan={2}>{category}</th>
         </tr>
     )
 }
